@@ -9,6 +9,7 @@
 ### Take Aways
 - What is Kubernetes?
 - Kubernetes Architecture
+- Declarative Model and Desired State
 - Getting Kubernetes
 - Working with Pods
 - Working with Services
@@ -42,7 +43,7 @@
     - Self healing
 
 
-#### What is Kubernetes?
+#### Kubernetes Architecture
 - Big Picture
     - App in a package using a container and container is in a pod and the pod is in a deployment and all this is described in the K8's YAML file.
     - Place in a K8 Cluster (Feed the YAML)
@@ -101,9 +102,9 @@
         - Executes Pods
         - Reports back to control plane
     - Container-runtime
-        - Prev Docker
+        - Previously it was Docker
         - Pluggable CRI
-        - Containerd
+        - Container-d (High usage)
         - gVisor
         - Katacontainers
     - kube-proxy
@@ -115,11 +116,47 @@
 
 
 - Pods
+    - Atmoic units of k8s
+    - Containers run inside a pod
+    - Shared execution env for an app to run
+        - One IP address and Ports
+        - Memory
+        - Containers within a pod share resources
+        - Scaling in K8s happen at Pod level (Scale-up by adding Pod and Scale-down by removing Pod )
+        - Service Mesh
+            -  A pod in which there is a mesh container that helps the main app container for enhanced services
+        - Pod Deployment is atomic operation
+        - All containers in a pod are scehduled with the same cluster node
+    - Annotations, Labels, Policies, Resources and Co-scheduling
+
 - Services
+    - Stable abstraction point for multiple pods
+    - Stable IP and DNS
+    - Acts as a basic load balancing
+    - Labels (Ties the services with the ones containing the labels)
+    - send traffic to only healthy pods
+    - Can do session Affinity - ?
+    - Can send traffic outside of cluster
+    - Can do TCP and UDP
+
+
 - Deployments
+    - Deployments are controllers that control pods
+        - Stateless apps
+        - Statefull apps
+        - Daemon sets (One pod per node)
+        - Time-based short-lived jobs
+    - Watches API server for new deployments
+    - Implements them and keeps a watch to maintain desire state
 - The API and API Server
 - Recap
 
+
+#### Declarative Model and Desired State
+- K8s prefers with Declarative model
+    - Using manifest files
+    - key-value pairs
+    - Desired State vs Observed State
 
 
 
