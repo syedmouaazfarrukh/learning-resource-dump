@@ -148,7 +148,17 @@
         - Time-based short-lived jobs
     - Watches API server for new deployments
     - Implements them and keeps a watch to maintain desire state
+    - Deployment Types
+        - ReplicaSet
+        - 
+
+
 - The API and API Server
+    - All above objects are resource in K8s API
+    - K8s API contains definition and feature set of each resource
+    - API server exposes the resource API - HTTPS/REST(methods)
+
+
 - Recap
 
 
