@@ -91,10 +91,29 @@
     - Commands is via `kubectl`
     ![Control Plane Architecture](control-plane.png)
 
-
-
-
 - Worker Nodes
+    - kubelet
+        - Main K8s agent
+        - Registers node with cluster
+        - Work is in the form of Pods
+            - Pods is one or more containers deployed
+        - Watches API server for work
+        - Executes Pods
+        - Reports back to control plane
+    - Container-runtime
+        - Prev Docker
+        - Pluggable CRI
+        - Containerd
+        - gVisor
+        - Katacontainers
+    - kube-proxy
+        - Node Networking
+        - Pod IP addresses (One IP/POD)
+        - For multi-container pods (all containers will share the same IP)
+    - `A service is a way of hiding multiple pods behind a single IP like a load balancer`
+    - Come cloud provide Nodeless Kubernetes - `Virtual Kubelet`
+
+
 - Pods
 - Services
 - Deployments
