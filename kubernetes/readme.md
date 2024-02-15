@@ -48,8 +48,52 @@
     - Place in a K8 Cluster (Feed the YAML)
     - Control Plane is the brain
     - Worker runs the user apps/services
+
 - Control Plane Nodes or Masters
-    -   
+    - Should always be available
+    - Use odd no of H/A Control planes (3 is magic, 5 is sweet)
+    - Should be in different data centers
+    - `1 is better than 2`
+        - Split brain/Dealock
+        - In case of network breakdown, each side will go int read-only mode because it won't have the majority
+    - Follows an active/passive model
+        - One is leader/Others are followers
+        - For own clusters, linux machines for Control planes
+    - Control plane features
+    - In Hosted K8s, Cloud Manages control planes
+    - Control Plane node not for userapps
+
+    - Kuber-apiserver
+        - front-end to control plane
+        - everything to the control plane comes through this
+        - EXPOSES the API(REST)
+        - Consumes the YAML   
+    - Cluster Store
+        - Persists cluster state/configs
+        - Based on `etcd`
+        - Performance bottlenecks occur here
+        - Have recovery plans
+    - Kube-controller-manager
+        - Controller
+            - Node Controller
+            - Deployments controller
+            - Endpoints controller
+        - Watch loops
+        - Reconciles state
+    - Kube-scheduler
+        - Watches API server for work
+        - Assigns tasks to worker
+            - Affinity/Anti-affinity
+            - Constraints
+            - Taints
+            - Resources
+
+    - Commands is via `kubectl`
+    - ![Control Plane Architecture](control-plane.png)
+
+
+
+
 - Worker Nodes
 - Pods
 - Services
