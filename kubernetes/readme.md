@@ -36,8 +36,26 @@
     - Jargons
         - Monoliths vs Microservices (Containers)
 - Why need it
+    - Container Orchestration
+        - Orchestration is like all players on a feild have a specific role along with a `COACH`. Coach manages the in-game strategy, replace players incase of injury. Change of strategy as per the requirements. Coach is the K8s.
+    - Granular AutoScalling
+    - Self healing
 
 
+#### What is Kubernetes?
+- Big Picture
+    - App in a package using a container and container is in a pod and the pod is in a deployment and all this is described in the K8's YAML file.
+    - Place in a K8 Cluster (Feed the YAML)
+    - Control Plane is the brain
+    - Worker runs the user apps/services
+- Control Plane Nodes or Masters
+    -   
+- Worker Nodes
+- Pods
+- Services
+- Deployments
+- The API and API Server
+- Recap
 
 
 
