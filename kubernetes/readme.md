@@ -89,7 +89,7 @@
             - Resources
 
     - Commands is via `kubectl`
-    - ![Control Plane Architecture](control-plane.png)
+    ![Control Plane Architecture](control-plane.png)
 
 
 
