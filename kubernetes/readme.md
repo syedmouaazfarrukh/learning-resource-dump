@@ -160,7 +160,7 @@
 
 
 - Recap
-
+    - ![Kubernetes Architecture](k8s-arch.png)
 
 #### Declarative Model and Desired State
 - K8s prefers with Declarative model
