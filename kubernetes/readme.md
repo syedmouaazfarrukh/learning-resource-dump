@@ -169,4 +169,49 @@
     - Desired State vs Observed State
 
 
+#### Getting a K8s Lab
+- Install Docker Desktop
+- Enable Kubernetes from settings
+- Download the course files
+    - Working with containers and docker
+        - Package the app in a container using DockerFile
+        - Build a container image from DockerFile and tag it
+        - Push the image onto a container-registry (DockerHub)
+       
+    - Working with Pods
+        - App Deployment Workflow
+            - Start with app code
+            - build it in a container image
+            - Store it in a repo
+            - Define in YAML and Deploy on cluster
+                - Create a `.yml` file and build it using `kubectl apply -f ".yml"`
+                - `f` means that we are deploying from a manifest
+            - Some usefull commands are:
+                - docker image ps
+                - docker ls
+                - kubectl get nodes
+                - kubectl get pods --watch
+                - kubectl get pods -o wide
+                - kubectl describe pods *pod-name*
+        - Creating a pod manifest (YAML)
+        - Deploying a Pod
+        - Multi-container Pod
+
+    - Working with Services
+        - Theory
+            - How to connect to the app - *Service*
+            - REST object in API
+            - Services are described in YAML
+            - They provide Stable IP and DNS
+                - Assigned by k8s
+                - Called as ClusterIP
+                - For internal communication
+            - On creation k8s automatically creates an endpoints object, a dynamic list of healthy pods that match the services labels selector
+            - Service selects its pods using *Labels*
+            - Also provide basic loadbalancing
+            - The internal network in a node is represented as:
+                ![Service Network for a Node](service-network.png)
+        - Create a service *Imperatively* K8s does not prefer.
+        - Create a service Declaratively
+        - Create an Internet Loadbalancer service
 
