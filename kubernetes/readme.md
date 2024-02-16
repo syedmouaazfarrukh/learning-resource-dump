@@ -209,13 +209,15 @@
             - On creation k8s automatically creates an endpoints object, a dynamic list of healthy pods that match the services labels selector
             - Service selects its pods using *Labels*
             - Also provide basic loadbalancing
-            - The internal network in a node is represented as:
-                ![Network for a Node](service-network.png)
-            - NodePort service
+            - ClusterIP (Default Service) - Internal cluster connectivity:
+                ![ClusterIP](clusterIP.png)
+            - NodePort service - External Access via nodes
                 ![NodePort](nodeport.png)
-            - LoadBalancer service
+            - LoadBalancer service - External Access via Cloud loadbalancer
                 ![LoadBalancer](loadbalancer.png)
+
         - Create a service *Imperatively* K8s does not prefer.
+            -  It is done via CLI
         - Create a service Declaratively
         - Create an Internet Loadbalancer service
 
