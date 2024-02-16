@@ -210,7 +210,11 @@
             - Service selects its pods using *Labels*
             - Also provide basic loadbalancing
             - The internal network in a node is represented as:
-                ![Service Network for a Node](service-network.png)
+                ![Network for a Node](service-network.png)
+            - NodePort service
+                ![NodePort](nodeport.png)
+            - LoadBalancer service
+                ![LoadBalancer](loadbalancer.png)
         - Create a service *Imperatively* K8s does not prefer.
         - Create a service Declaratively
         - Create an Internet Loadbalancer service
