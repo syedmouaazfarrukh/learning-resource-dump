@@ -218,6 +218,10 @@
 
         - Create a service *Imperatively* K8s does not prefer.
             -  It is done via CLI
+
         - Create a service Declaratively
+            - The port picture in `code svc-nodeport.yml`
+            - The endpoints that are created at service creation `kubectl get ep`
+            
         - Create an Internet Loadbalancer service
 
