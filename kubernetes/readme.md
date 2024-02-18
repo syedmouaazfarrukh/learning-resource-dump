@@ -150,8 +150,6 @@
     - Implements them and keeps a watch to maintain desire state
     - Deployment Types
         - ReplicaSet
-        - 
-
 
 - The API and API Server
     - All above objects are resource in K8s API
@@ -222,6 +220,20 @@
         - Create a service Declaratively
             - The port picture in `code svc-nodeport.yml`
             - The endpoints that are created at service creation `kubectl get ep`
-            
-        - Create an Internet Loadbalancer service
 
+        - Create an Internet Loadbalancer service
+    
+    - Working with Deployments
+        - Kuberenetes Deployment theory
+            - Resources in Apps of the the API in API server
+            - Application in container which in turns is in pods which is in a deployment
+            - In between a pod(Scheduling & Execution) and deployment(Rollouts & Rollbacks) is a ReplicaSet(Reliability & Scaling)
+        - Create a Deployment YAML
+            - YAML with desired state
+            - Post it on API-server
+            - Creates a ReplicaSet with YAML
+            - When new version(image) YAML is posted on API, another ReplicaSet is created with new image and the previous one exists.
+            - There are different probes for smooth rollouts/rollbacks 
+        - Deploy a Deployment
+        - Self healing and Scaling
+        - Rollouts and Rollbacks
