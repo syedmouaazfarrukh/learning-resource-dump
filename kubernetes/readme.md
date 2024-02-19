@@ -1,7 +1,13 @@
 # Kubernetes
 
-## Theoretical 
+Learn Kubernetes in various on-prem and cloud environments such as:
+- Local using Docker Desktop
+- Cloud Platforms
+    - Amazon (EKS)
+    - Azure (AKS)
+    - Google (GKE)
 
+## Local - Docker Desktop 
 ### Course Link
 - [Getting Started with K8s with Nigel Poulton](https://app.pluralsight.com/ilx/video-courses/clips/374fcae1-fa4f-4bdc-8c3a-ef32cca2ac6a)
 - [Course files and code](https://github.com/nigelpoulton/getting-started-k8s)
