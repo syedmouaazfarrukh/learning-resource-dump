@@ -261,5 +261,14 @@ Learn Kubernetes in various on-prem and cloud environments such as:
 - Why create namespaces
     - Overcrowded resource / management is difficult
     - group resources in namespaces
-    - Resources grouped in namespaces
-        - ![Grouped Resources](src/grouped-resources.png)
+    
+
+    - Use cases
+        - Resources grouped in namespaces
+            - ![Grouped Resources](src/grouped-resources.png)
+        - Conflicts: Many teams, same application
+            - ![Conflicts Namespace](src/conflicts-namespace.png)
+        - Resource Sharing & Development
+            - ![Resource Sharing & Development](src/share-deploy.png)
+        - Resource Sharing -  Blue/Green Development
+            - ![Blue Green Deployment](src/blue-green.png)
