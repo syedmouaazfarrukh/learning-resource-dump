@@ -164,7 +164,7 @@ Learn Kubernetes in various on-prem and cloud environments such as:
 
 
 - Recap
-    - ![Kubernetes Architecture](src\images\k8s-arch.png)
+    - ![Kubernetes Architecture](.src\k8s-arch.png)
 
 #### Declarative Model and Desired State
 - K8s prefers with Declarative model
