@@ -96,7 +96,7 @@ Learn Kubernetes in various on-prem and cloud environments such as:
             - Resources
 
     - Commands is via `kubectl`
-    ![Control Plane Architecture](control-plane.png)
+    ![Control Plane Architecture](src/control-plane.png)
 
 - Worker Nodes
     - kubelet
@@ -214,11 +214,11 @@ Learn Kubernetes in various on-prem and cloud environments such as:
             - Service selects its pods using *Labels*
             - Also provide basic loadbalancing
             - ClusterIP (Default Service) - Internal cluster connectivity:
-                ![ClusterIP](clusterIP.png)
+                ![ClusterIP](src/clusterIP.png)
             - NodePort service - External Access via nodes
-                ![NodePort](nodeport.png)
+                ![NodePort](src/nodeport.png)
             - LoadBalancer service - External Access via Cloud loadbalancer
-                ![LoadBalancer](loadbalancer.png)
+                ![LoadBalancer](src/loadbalancer.png)
 
         - Create a service *Imperatively* K8s does not prefer.
             -  It is done via CLI
