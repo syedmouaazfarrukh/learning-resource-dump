@@ -243,3 +243,23 @@ Learn Kubernetes in various on-prem and cloud environments such as:
         - Deploy a Deployment
         - Self healing and Scaling
         - Rollouts and Rollbacks
+
+
+# Namespaces
+- What is a namespaces
+    - Resources are in namespaces
+    - Can have multiple namespaces in a cluster
+    - Virtual cluster inside a cluster
+    - On default - 4 namespaces
+        - kubernetes dashboard = minikube
+        - kube-system = System process are defined here
+        - kube-public = publicly accessible data
+        - kube-node-lease = heartbeats of nodes (availability)
+        - default namespace = Namespace where your resources are created
+        - Create custom namespaces by kubectl create 'my-namespace'
+
+- Why create namespaces
+    - Overcrowded resource / management is difficult
+    - group resources in namespaces
+    - Resources grouped in namespaces
+        - ![Grouped Resources](src/grouped-resources.png)

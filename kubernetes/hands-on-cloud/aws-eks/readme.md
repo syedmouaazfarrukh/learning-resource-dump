@@ -29,13 +29,23 @@
 
 - Diagram
     - EKS pods are similar to ECS tasks
-![alt text](image-1.png)
+![EKS Architecture](eks-arch.png)
 
 ## Hands-On-Practice
 - Not available in free tier
-- To create a cluster, create a `Cluster service Role`
-    - Create a role in IAM
-        - Select service and then EKS as use case
-        - Need to have a VPC, Subnets, and Security
-        - Publicly accessible
-    
+
+- For `EC2 launch mode`:
+    - To create a cluster, create a `Cluster service Role`
+        - Create a role in IAM
+            - Select service and then EKS as use case
+            - Need to have a VPC, Subnets, and Security
+            - Publicly accessible
+
+- For `Fargate launch mode`:
+    - Specify name and K8s version
+    - Create a `Cluster service Role`
+
+
+- Following this resource
+    - [Run K8s app on AWS-EKS with Fargate: A Kotlin Spring Boot demo](https://medium.com/khalane/running-kubernetes-applications-on-aws-eks-with-fargate-a-kotlin-spring-boot-demo-39f3d3e64663)
+    - Get the code from here: [Sample Code](https://github.com/tkhalane/randmeth-campaigns)
