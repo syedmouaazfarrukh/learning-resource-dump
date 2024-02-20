@@ -29,7 +29,6 @@ Learning resource for MERN Stack from the following course:
     - Follow the youtube course
 - Setup a local MongoDB cluster
 
-
 #### Backend
 - Create a separate `backend` folder after `npx create-react-app mern-excercise-tracker`
 - Install a tool `nodemon` - helps nodejs based apps by automatically restarting the app on changes in the directory
