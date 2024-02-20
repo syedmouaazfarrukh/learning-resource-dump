@@ -251,24 +251,35 @@ Learn Kubernetes in various on-prem and cloud environments such as:
     - Can have multiple namespaces in a cluster
     - Virtual cluster inside a cluster
     - On default - 4 namespaces
-        - kubernetes dashboard = minikube
-        - kube-system = System process are defined here
-        - kube-public = publicly accessible data
-        - kube-node-lease = heartbeats of nodes (availability)
-        - default namespace = Namespace where your resources are created
+        - `kubernetes-dashboard` = minikube
+        - `kube-system` = System process are defined here
+        - `kube-public` = publicly accessible data
+        - `kube-node-lease` = heartbeats of nodes (availability)
+        - `default namespace` = Namespace where your resources are created
         - Create custom namespaces by kubectl create 'my-namespace'
 
 - Why create namespaces
     - Overcrowded resource / management is difficult
-    - group resources in namespaces
-    
-
     - Use cases
         - Resources grouped in namespaces
             - ![Grouped Resources](src/grouped-resources.png)
         - Conflicts: Many teams, same application
             - ![Conflicts Namespace](src/conflicts-namespace.png)
-        - Resource Sharing & Development
+        - Resource Sharing & Development 
             - ![Resource Sharing & Development](src/share-deploy.png)
         - Resource Sharing -  Blue/Green Development
             - ![Blue Green Deployment](src/blue-green.png)
+        - Access and Resource Limits on Namespaces
+            - ![Resource Limits on Namespaces](src/limit-access.png)
+
+- Each namespace must have its own configMap becuz you can't access resources accross namespaces
+- Resources that can be share in namespaces is services
+
+- How to Create Namespace
+    - By default, resources are created in default namespaces, check by `kubectl get configmaps`
+    - To create resource in our namespaces pass, `kubectl apply -f "_____.yml" --namespace="my_namespace"` or pas in it manifest file.
+    - Change default namespaces to desired namespace
+        - `kubens` a tool that does this
+        - `brew install kubectx`
+        - `kubens`
+        - `kubens "my_namespace"` *changes the default namespace to my_namespace*
