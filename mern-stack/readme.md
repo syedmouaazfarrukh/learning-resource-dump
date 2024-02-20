@@ -28,6 +28,7 @@ Learning resource for MERN Stack from the following course:
 - Setup a cloud based Mongo cluster via MongoDB atlas
     - Follow the youtube course
 - Setup a local MongoDB cluster
+    - [Setup a Local MongoDB Database](https://www.youtube.com/watch?v=D0U8vD8m1I0)
 
 #### Backend
 - Create a separate `backend` folder after `npx create-react-app mern-excercise-tracker`
