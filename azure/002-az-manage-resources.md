@@ -75,5 +75,4 @@
         - Definition location should be same subs as for resource group
         - 
 
-
 - Use resource locks to protect critical Azure resources from accidental deletion.
