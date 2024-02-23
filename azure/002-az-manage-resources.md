@@ -67,5 +67,13 @@
         - common for tags to be used in automation:
             - *EG:* If you want to automate the shutdown and startup of virtual machines in development environments during off-hours to save costs, you can use tags to support automation. Add a shutdown:6PM and startup:7AM tag to the virtual machines, then create an automation job that looks for these tags and shuts down or starts resources based on their tag value. There are several solutions in the Azure Automation Runbooks Gallery that use tags in a similar manner to accomplish this result.
 
-- Apply policies to enforce standards in your Azure environments.
+- Policies for Resource Groups.
+    - Azure Policy is a service you can use to create, assign, and manage policies
+    - apply and enforce rules that your resources need to follow
+        - *EG*: Policies can enforce rules such as only allowing specific types of resources to be created or only allowing resources in specific Azure regions. You can enforce naming conventions across your Azure environment. You can also enforce that specific tags are applied to resources. Let's take a look at how policies work.
+    - Create a policy
+        - Definition location should be same subs as for resource group
+        - 
+
+
 - Use resource locks to protect critical Azure resources from accidental deletion.
