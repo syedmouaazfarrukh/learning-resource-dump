@@ -39,6 +39,7 @@
             - PowerShell Script
                 - A text file containing commands and control constructs
 
+
 ## Resource Group 
 - Organize your resources
 - Is a logical container for resources
