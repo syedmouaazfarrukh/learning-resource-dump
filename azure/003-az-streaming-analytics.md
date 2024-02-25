@@ -16,7 +16,7 @@ Course Details:
     - Characteristics
         - Unbounded data stream
         - Each data object is timestamped
-        - Data aggregation is performed over `temporal windows`
+        - Data aggregation is performed over `Temporal windows`
         - ![Stream-Characteristics](stream-characteristics.png)
 
 - Stream Analytics is for complex event processing/analysis of streaming data
@@ -26,3 +26,20 @@ Course Details:
         - `Write outputs` to *Azure Data Lake Gen 2*, *Azure SQL Database*, *Azure Synapse Analytics* etc
     - Guarantees `once event processing` and `at-least once event delivery`
     - Provides checkpoints to maintain/check etl jobs
+
+- ASA Jobs & Clusters
+    - Jobs will process the data
+    - Inputs
+        - Azure Event Hubs
+        - Azure IoT Hub
+        - Azure Blob storage
+        - Azure Data Lake Storage Gen2
+        - *Can `reference inputs` used to ingest static data to augment the real-time event stream data.*
+    - Outputs
+        - Supports a wide range of outputs
+            - loads them into a data lake or data warehouse
+            - Append data to a dataset in Power BI
+            - Writes the results of stream processing to an event hub.
+    - Queries
+        - EventProcessedUtcTime
+        - When using an *Event Hubs input*, a field named EventQueuedUtcTime to record time of event queued in Hub
