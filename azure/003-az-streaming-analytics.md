@@ -43,3 +43,5 @@ Course Details:
     - Queries
         - EventProcessedUtcTime
         - When using an *Event Hubs input*, a field named EventQueuedUtcTime to record time of event queued in Hub
+
+- Windows Function
