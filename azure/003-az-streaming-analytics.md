@@ -53,3 +53,26 @@ Course Details:
         - Sliding: generate events for points in time when the content of the window actually changes, `SlidingWindow()`
         - Session: functions cluster together events that arrive at similar times, filtering out periods of time where there's no data. It has three primary parameters: timeout, maximum duration, and partitioning key (optional). `SessionWindow()` 
         - Snapshot: groups events by identical timestamp values `System.Timestamp()`
+
+
+### Ingest streaming data using `Azure Stream Analytics` and `Azure Synapse Analytics`
+
+- Common stream ingestion scenarios for Azure Synapse Analytics.
+    - A real-time source of data is captured in an event ingestor, such as Azure Event Hubs or Azure IoT Hub.
+    - The captured data is perpetually filtered and aggregated by an Azure Stream Analytics query.
+    - The results of the query are loaded into a data lake or data warehouse in Azure Synapse Analytics for subsequent analysis.
+
+    - Two common approaches for large-scale data analytics:
+        1. Data warehouse - Relational
+            - Provides dedicated SQL pools(massively parallel processing (MPP)) for data warehouses
+            - For Stream Analytics to write into such warehouse, output should be pointed/referenced to tables
+
+        2. Data Lake - File storage
+            - Atleast one storage device (Storage account container is common)
+            - Files are organized hierarchically in directories (folders)
+            - Azure Stream Analytics query must write its results to an output that references the location in the Azure Data Lake Gen2 storage container where you want to save the data files
+
+- Configure inputs and outputs for an Azure Stream Analytics job.
+
+- Define a query to ingest real-time data into Azure Synapse Analytics.
+- Run a job to ingest real-time data, and consume that data in Azure Synapse Analytics.
