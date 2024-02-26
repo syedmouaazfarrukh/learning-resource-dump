@@ -45,3 +45,11 @@ Course Details:
         - When using an *Event Hubs input*, a field named EventQueuedUtcTime to record time of event queued in Hub
 
 - Windows Function
+    - To aggregate events into temporal intervals, or windows
+        - EG: To count the number of social media posts per minute or to calculate the average rainfall per hour.
+    - Five kinds
+        - Tumbling: contiguous series of fixed-size
+        - Hopping: 
+        - Sliding:
+        - Session:
+        - Snapshot:
