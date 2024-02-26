@@ -48,8 +48,8 @@ Course Details:
     - To aggregate events into temporal intervals, or windows
         - EG: To count the number of social media posts per minute or to calculate the average rainfall per hour.
     - Five kinds
-        - Tumbling: contiguous series of fixed-size
-        - Hopping: 
-        - Sliding:
-        - Session:
-        - Snapshot:
+        - Tumbling: contiguous series of fixed-size, non-overlapping time segments, one event per tumbling window, `TumblingWindow()`
+        - Hopping: models scheduled overlapping windows,  Tumbling windows that can overlap, have a hop size, events can belong to more windows, must have 3 parameters (1: time unit, 2: window size, 3: hop size , *4: offset*), `HoppingWindow()`
+        - Sliding: generate events for points in time when the content of the window actually changes, `SlidingWindow()`
+        - Session: functions cluster together events that arrive at similar times, filtering out periods of time where there's no data. It has three primary parameters: timeout, maximum duration, and partitioning key (optional). `SessionWindow()` 
+        - Snapshot: groups events by identical timestamp values `System.Timestamp()`
