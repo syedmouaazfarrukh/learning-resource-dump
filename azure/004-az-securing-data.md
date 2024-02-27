@@ -34,3 +34,12 @@
 
 - Validate that your program dependencies and libraries are safe to use.
     - OWASP top 10 list of worst web application vulnerabilities
+    - Track known security vulnerabilities 
+        - `Mitre` maintain *Common Vulnerabilities and Exposures list*
+            - If you find a library or component in the CVE database, it has known vulnerabilities
+    - Vulnerabilities in your third-party compo
+        - Run these tools against your codebase, or better yet, add them to your CI/CD pipeline
+            - OWASP Dependency Check, which has a Jenkins plugin
+            - Snyk, which is free for open-source repositories in GitHub
+            - Black Duck which is used by many enterprises
+            - Retire.js
