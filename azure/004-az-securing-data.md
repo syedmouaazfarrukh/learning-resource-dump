@@ -9,7 +9,7 @@
     - Inputs:
         - Security weakness of current applications is a failure to correctly validate input data
         - Don't use inline SQL
-        - Use Procedures instead of inline SQL
+        - Use Procedures instead o`f inline SQL
     - Outputs:
         - Screen outputs are encoded, not to be interpreted as code
 
