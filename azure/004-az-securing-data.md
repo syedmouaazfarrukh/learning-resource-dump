@@ -74,4 +74,45 @@
 
 ## Secure your Azure Storage account
 
-- 
+- Investigate the ways Azure Storage protects your data.
+    - Protect the data at rest
+    - Protect the data in transit
+    - Support browser cross-domain access
+    - Control who can access data
+    - Audit storage access - (Storage Analytics service).
+
+- Explore the authentication options to access data.
+    - Understand storage account keys
+        - Storage account keys
+        - Protect shared keys
+
+    - Understand shared access signatures
+        - Types of shared access signatures
+            - service-level SAS to allow access to specific resources in a storage account.
+            - account-level SAS to allow access to anything that a service-level SAS can allow
+        - Accounts that store user data have two typical design
+            - front-end proxy service, which performs authentication.
+            - A lightweight service authenticates the client, as needed
+
+
+- Learn about Advanced Threat Protection.
+    - Enable Microsoft Defender for Storage
+    - Explore security anomalies
+        - Nature of the anomaly
+        - Storage account name
+        - Event time
+        - Storage type
+        - Potential causes
+        - Investigation steps
+        - Remediation steps
+
+- Learn how to control network access to data.
+    - Manage default network access rules
+
+- Explore the Azure Data Lake enterprise-class security features.
+    - role-based access control (RBAC)
+    - access control lists (ACLs) 
+    - Authenticates through Microsoft Entra ID OAuth 2.0 bearer tokens
+
+
+## Configure and manage secrets in Azure Key Vault
