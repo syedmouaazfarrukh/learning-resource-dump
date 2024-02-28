@@ -46,6 +46,54 @@
 
 
 
+
+**5. Nana's Tutorial for Github Actions:**
+- What is Github Actions
+    - Automating workflows (*CI/CD is one of many workflows*)
+        - Repo maintainer
+            - Deal with PR, issues, merge at end
+            - More the people, more the feature, more issues
+            - Github actions is to solve thes tedious tasks by automating them 
+        - How GA automate workflows
+            - `Github Events`: Activity `in` or `to` your repo, automatic actions in response
+                - EG: PR creation, Contr joining, other integrated app, issue creation, PR merged
+            - `Listen to Events`
+            - `Trigger workflow via Actions`
+                - Sort - Action
+                - Label - Action
+                - Assign it - Action
+                - Reproduce - Action
+                - These all together make a workflow
+
+
+- Developer workflow use-cases
+    - CI/CD
+        - Commit Code
+        - Test
+        - Build
+        - Push
+        - Deploy
+    - Why CI/CD by Github
+        - For codes on github
+        - Setup is super easy
+            - Integration with tech is imp
+            - eg: ![ga-easysetup](src/ga-easysetup.png)
+        - Easy Tools for developers 
+
+- Basic Concepts: GitHub Events and Actions
+
+- CI/CD pipeline with GitHub Actions
+    - Benefits
+    - Demo
+    - Syntax
+
+
+
+
+
+
+
+
 ## GitLab CI:
 
 **1. GitLab CI Overview:**
@@ -80,6 +128,14 @@
 
 **4. Runners and Executors:**
    - GitLab Runners execute the CI/CD jobs. They can be shared or specific to a project.
+
+
+
+
+
+
+
+
 
 
 
