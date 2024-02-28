@@ -160,3 +160,9 @@
 
 
 ## Secure your Azure SQL Database
+
+- Have to go through - Hands-on-labs
+    - Control network access to your Azure SQL Database using firewall rules
+    - Control user access to your Azure SQL Database using authentication and authorization
+    - Protect your data in transit and at rest
+    - Audit and monitor your Azure SQL Database for access violations
