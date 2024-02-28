@@ -17,7 +17,7 @@ Course Details:
         - Unbounded data stream
         - Each data object is timestamped
         - Data aggregation is performed over `Temporal windows`
-        - ![Stream-Characteristics](stream-characteristics.png)
+        - ![Stream-Characteristics](src/stream-characteristics.png)
 
 - Stream Analytics is for complex event processing/analysis of streaming data
     - Analytics is used to:

@@ -69,7 +69,7 @@
 - Classify your SQL DB
 - Paired Regions
     - Cross-region activities number key
-    - EG: ![paired-region](paired-region.png) 
+    - EG: ![paired-region](src/paired-region.png) 
 
 
 ## Secure your Azure Storage account
@@ -156,7 +156,7 @@
 - Verify access to resources for yourself and others.
 - Grant access to resources.
 - View activity logs of Azure RBAC changes.
-- ![role-assigment](role-assigment.png)
+- ![role-assigment](src/role-assigment.png)
 
 
 ## Secure your Azure SQL Database
