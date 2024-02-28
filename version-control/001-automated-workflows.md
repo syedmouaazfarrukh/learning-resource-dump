@@ -64,7 +64,9 @@
                 - Assign it - Action
                 - Reproduce - Action
                 - These all together make a workflow
-
+            - Workflows are executed on Github Managed Servers
+            - Multiple jobs run in parallel
+            - Publish commands waits for the build to complete
 
 - Developer workflow use-cases
     - CI/CD
