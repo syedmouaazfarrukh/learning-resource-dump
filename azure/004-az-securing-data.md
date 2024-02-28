@@ -43,3 +43,35 @@
             - Snyk, which is free for open-source repositories in GitHub
             - Black Duck which is used by many enterprises
             - Retire.js
+
+
+## Configure security policies to manage data
+
+- Learn how to classify your data.
+    - rest
+        - Apply disk encryption to help safeguard your data.
+        - Use encryption to help mitigate risks related to unauthorized data access.
+    - in-process
+    - transit
+        - Secure access from multiple workstations located on-premises to an Azure virtual network - Use site-to-site VPN.
+        - Secure access from an individual workstation located on-premises to an Azure virtual network - Use point-to-site VPN.
+        - Move large data sets over a dedicated high-speed wide-area network (WAN) link - Use Azure ExpressRoute
+        - Interact with Azure Storage through the Azure portal.
+
+- Configure your data retention requirements.
+- Explore data ownership and sovereignty.
+
+- SQL Information Protection (SQL IP)
+    - Azure SQL Auditing
+    - Data Discovery & Classification
+    - Dynamic data masking etc
+
+- Classify your SQL DB
+- Paired Regions
+    - Cross-region activities number key
+    - EG: ![paired-region](paired-region.png) 
+
+
+## Secure your Azure Storage account
+
+- 
