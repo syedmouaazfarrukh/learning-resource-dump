@@ -116,3 +116,47 @@
 
 
 ## Configure and manage secrets in Azure Key Vault
+
+- Explore proper usage of Azure Key Vault
+    - Vaults
+        - Secure containers
+    - Keys
+        - central actor in the Azure Key Vault service
+        - two variations on keys
+            - hardware-protected
+            - software-protected
+    - Secrets
+        - Secrets are small (less than 10K) data blobs protected by a HSM-generated key
+    - Key vault uses
+        - Secrets management
+        - Key management
+        - Certificate management
+
+- Manage access to an Azure Key Vault
+    - Key Vault access has two facets
+        - management plane (creation of the Key Vault) - role-based access control (RBAC)
+        - data plane (storing and retrieving a secret stored)
+    - Authentication to identify the caller (Microsoft Entra tenant of the subscription that the Key Vault )
+    - Authorization to determine the operations the caller 
+        - Creating a new Azure Key Vault - role-based access control (RBAC): Key Vault Contributor
+        - Contributor role that includes full administration rights
+        - Reading and writing data in the Key Vault uses a separate Key Vault access policy.
+
+- Explore certificate management with Azure Key Vault
+    - Add certificates to a Key Vault
+        - Can create self-signed certificates directly in the Azure portal
+        - Can create an X.509 certificate signing request (CSR)
+    - Retrieve certificates from a Key Vault
+
+- Configure a Hardware Security Module Key-generation solution
+
+
+## Secure your Azure resources with Azure role-based access control (Azure RBAC)
+
+- Verify access to resources for yourself and others.
+- Grant access to resources.
+- View activity logs of Azure RBAC changes.
+- ![role-assigment](role-assigment.png)
+
+
+## Secure your Azure SQL Database
