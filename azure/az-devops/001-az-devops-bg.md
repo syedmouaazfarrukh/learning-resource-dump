@@ -67,9 +67,9 @@
 
         - Service Connection to Azure Resource Manager
         - Explore pipeline Templates
-        - Add a build pipleline
+        - *Add a build pipleline*
         - Manually run and troubleshoot a pipeline
         - *Update the repo to trigger the build*
-        - Add a release pipeline
+        - *Add a release pipeline*
         - Use custom variables in the pipeline
         
