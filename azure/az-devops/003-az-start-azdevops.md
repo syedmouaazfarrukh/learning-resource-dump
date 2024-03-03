@@ -11,6 +11,8 @@
         - VSM to improve your release process.
         - Compute the activity ratio, or overall efficiency
         - EG: ![vsm-eg](vsm-eg.png)
+            - A VSM helps us measure where a process has value to the customer and where it's eating up time without producing any value.
+            
 - Sign up for your free Azure DevOps organization
 - Learn how to plan and track work items using Azure Boards
 - Optimize sprint workloads across multiple Agile teams?
