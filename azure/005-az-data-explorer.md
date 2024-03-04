@@ -71,3 +71,18 @@
 
     - Architecture
         - ![az-de](az-de.png)
+
+    
+- When to use Azure Data Explorer
+    - Interactive analytics - *Do I need to analyze data interactively?*
+    - Data variety - *How varied is my data structure?*
+    - Data velocity - *Is real-time data analysis a critical factor?*
+    - Data volume - *How much data do I need to ingest?*
+    - Data organization - *How consistently is my data organized?*
+    - Query concurrency - *How many users need to query/ingest/process data at the same time?*
+    - Build vs Buy - *How much do I want to customize my data platform?*
+    - `Questions to ask`
+        - ![az-de-questions](az-de-questions.png)
+
+- Use Cases
+    - ![az-de-usecases](az-de-usecases.png)
