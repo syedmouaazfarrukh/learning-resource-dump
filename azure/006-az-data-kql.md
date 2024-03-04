@@ -16,3 +16,6 @@
     - KQL is organized based on the way that data is processed
     - KQL query begins with the data source
     - Data is then processed by passing through conditions
+        - Data piped
+        - Data processed
+        - Data survived
