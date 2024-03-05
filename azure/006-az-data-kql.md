@@ -19,3 +19,6 @@
         - Data piped
         - Data processed
         - Data survived
+
+- Types of KQL queries
+    - 
