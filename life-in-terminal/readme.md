@@ -5,7 +5,9 @@
 
 ## 2. Processes
 A process is an instance of a computer program that is being executed. Each process is identified by a unique number called a process ID (PID)
+
 - `ps` - report a snapshot of the current processes.
+    - [Cheat Sheet](https://www.sysadmin.md/ps-cheatsheet.html)
 
 - `top` - display Linux processes.
     - periodically displays a sorted list of system processes
