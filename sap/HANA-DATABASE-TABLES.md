@@ -60,11 +60,13 @@ Refer video for more
 
 Create tables using SQL DDL in which we define every table/view in a separate file.
 
+## SAP HANA Basics For Developers: Part 5.5 Structured Privilege and Roles
+
+Check the video resource
+
 More:
 - [SAP HANA Basics For Developers: Part 5.1 Database Content](https://www.youtube.com/watch?v=N-fwm9F45NA&list=PL6RpkC85SLQABOpzhd7WI-hMpy99PxUo0&index=121)
 - [SAP HANA Basics For Developers: Part 5.2 Tables and Views Via CAP CDS](https://www.youtube.com/watch?v=UuXURLt1IQE&list=PL6RpkC85SLQABOpzhd7WI-hMpy99PxUo0&index=120)
 - [SAP HANA Basics For Developers: Part 5.3 Table Data Configuration](https://www.youtube.com/watch?v=K1mHlVvP7Io&list=PL6RpkC85SLQABOpzhd7WI-hMpy99PxUo0&index=119)
-- []()
-- []()
-- []()
+- [SAP HANA Basics For Developers: Part 5.5 Structured Privilege and Roles](https://www.youtube.com/watch?v=p6IJwF7UgCY&list=PL6RpkC85SLQABOpzhd7WI-hMpy99PxUo0&index=117)
 
