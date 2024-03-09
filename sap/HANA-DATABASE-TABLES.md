@@ -56,6 +56,9 @@ In this section, we'll explore the basics of database content management in SAP 
 
 Refer video for more
 
+## SAP HANA Basics For Developers: Part 5.4 Tables and Views Via SQL DDL
+
+Create tables using SQL DDL in which we define every table/view in a separate file.
 
 More:
 - [SAP HANA Basics For Developers: Part 5.1 Database Content](https://www.youtube.com/watch?v=N-fwm9F45NA&list=PL6RpkC85SLQABOpzhd7WI-hMpy99PxUo0&index=121)
