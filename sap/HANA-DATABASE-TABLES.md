@@ -53,10 +53,15 @@ In this section, we'll explore the basics of database content management in SAP 
 
 
 
+## SAP HANA Basics For Developers: Part 5.3 Table Data Configuration
+
+Refer video for more
+
+
 More:
 - [SAP HANA Basics For Developers: Part 5.1 Database Content](https://www.youtube.com/watch?v=N-fwm9F45NA&list=PL6RpkC85SLQABOpzhd7WI-hMpy99PxUo0&index=121)
 - [SAP HANA Basics For Developers: Part 5.2 Tables and Views Via CAP CDS](https://www.youtube.com/watch?v=UuXURLt1IQE&list=PL6RpkC85SLQABOpzhd7WI-hMpy99PxUo0&index=120)
-- []()
+- [SAP HANA Basics For Developers: Part 5.3 Table Data Configuration](https://www.youtube.com/watch?v=K1mHlVvP7Io&list=PL6RpkC85SLQABOpzhd7WI-hMpy99PxUo0&index=119)
 - []()
 - []()
 - []()
