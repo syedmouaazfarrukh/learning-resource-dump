@@ -52,7 +52,6 @@ In this section, we'll explore the basics of database content management in SAP 
   - Leverage associations to establish relationships between tables, enabling efficient data retrieval and manipulation.
 
 
-
 ## SAP HANA Basics For Developers: Part 5.3 Table Data Configuration
 
 Refer video for more
