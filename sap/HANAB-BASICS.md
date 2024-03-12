@@ -95,11 +95,42 @@ In this segment, we explore the Application Server Layer of SAP HANA, which play
 
 
 
+# Introduction to SAP HANA Basics For Developers: Part 4 Hello World using Node.js**
+
+In this section, we embark on a hands-on journey to develop a simple "Hello World" application using Node.js on SAP HANA. This serves as a foundational exercise to familiarize developers with the development environment and workflow for creating applications on SAP HANA.
+
+## Getting Started with Node.js on SAP HANA**
+
+1. **Node.js Installation:**
+   - Before starting, ensure that Node.js is installed on your development machine. Node.js is a JavaScript runtime environment that enables server-side scripting and application development.
+
+2. **SAP HANA XS Advanced (XSA) Setup:**
+   - Access the SAP HANA XS Advanced (XSA) development environment, which provides tools and services for building and deploying applications on SAP HANA.
+
+## Creating the "Hello World" Application**
+
+1. **Project Setup:**
+   - Create a new directory for your project and initialize a new Node.js project using npm (Node Package Manager).
+
+2. **Coding the Application:**
+   - Write a simple Node.js script that outputs "Hello World" to the console or creates a basic web server using frameworks like Express.js.
+
+3. **Connecting to SAP HANA:**
+   - Optionally, establish a connection to the SAP HANA database within your Node.js application to retrieve or manipulate data stored in SAP HANA tables.
+
+## Running and Testing the Application**
+
+1. **Local Testing:**
+   - Test the "Hello World" application locally by running it on your development machine. Use tools like Postman or web browsers to interact with web server endpoints if applicable.
+
+2. **Deployment on SAP HANA:**
+   - Deploy the application to the SAP HANA XS Advanced environment for production use. Follow deployment guidelines provided by SAP HANA documentation.
+
 
 
 
 More: 
 - [SAP HANA Basics For Developers: Part 1 Introduction](https://www.youtube.com/watch?v=ljdvqRtSHd4&list=PL6RpkC85SLQABOpzhd7WI-hMpy99PxUo0&index=125)
 - [SAP HANA Basics For Developers: Part 2 Tooling](https://www.youtube.com/watch?v=wojFKVxjFl4&list=PL6RpkC85SLQABOpzhd7WI-hMpy99PxUo0&index=124)
-- [Part 3 Application Server Layer](https://www.youtube.com/watch?v=DtlOto-goUw&list=PL6RpkC85SLQABOpzhd7WI-hMpy99PxUo0&index=123)
-- [Part 4 Hello World](https://www.youtube.com/watch?v=Ll4WI9wtzcQ&list=PL6RpkC85SLQABOpzhd7WI-hMpy99PxUo0&index=122)
+- [SAP HANA Basics For Developers: Part 3 Application Server Layer](https://www.youtube.com/watch?v=DtlOto-goUw&list=PL6RpkC85SLQABOpzhd7WI-hMpy99PxUo0&index=123)
+- [SAP HANA Basics For Developers: Part 4 Hello World](https://www.youtube.com/watch?v=Ll4WI9wtzcQ&list=PL6RpkC85SLQABOpzhd7WI-hMpy99PxUo0&index=122)
