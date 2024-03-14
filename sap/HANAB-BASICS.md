@@ -25,5 +25,5 @@ SAP HANA is a powerful in-memory database and platform developed by SAP, designe
 - Hands-on experience with SAP HANA development is crucial for mastering its capabilities and building robust applications.
 
 
-
-[SAP HANA Basics For Developers: Part 1 Introduction](https://www.youtube.com/watch?v=ljdvqRtSHd4&list=PL6RpkC85SLQABOpzhd7WI-hMpy99PxUo0&index=125)
+More: 
+- [SAP HANA Basics For Developers: Part 1 Introduction](https://www.youtube.com/watch?v=ljdvqRtSHd4&list=PL6RpkC85SLQABOpzhd7WI-hMpy99PxUo0&index=125)
