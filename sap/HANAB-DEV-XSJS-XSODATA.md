@@ -119,6 +119,18 @@ Define entity sets and associations in SAP HANA artifacts, annotate them with OD
 
 ## Part 8.7 XSODATA: OData V2 With Multiple Entities and Relationships
 
+What is XSODATA and implementing OData V2 with multiple entities and relationships?
+
+XSODATA is a service facilitating the creation of OData V2 services, enabling the exposure of multiple data entities and their relationships as web APIs in SAP HANA.
+Why implement OData V2 with multiple entities and relationships using XSODATA?
+
+To provide a standardized and scalable approach for accessing and managing complex data structures in SAP HANA.
+Benefits of implementing OData V2 with multiple entities and relationships using XSODATA
+
+Improved data accessibility, simplified integration, and enhanced query capabilities for SAP HANA applications.
+How to implement OData V2 with multiple entities and relationships using XSODATA?
+
+Define entity sets, associations, and navigation properties in SAP HANA artifacts, annotate them with OData specifications, and expose them using XSODATA configuration.
 
 [Video Link](https://www.youtube.com/watch?v=MWxNLLYTeaI&list=PL6RpkC85SLQABOpzhd7WI-hMpy99PxUo0&index=92)
 
