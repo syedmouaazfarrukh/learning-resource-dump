@@ -136,4 +136,6 @@ Define entity sets, associations, and navigation properties in SAP HANA artifact
 
 ## Part 8.8 XSODATA: OData V2 Create with Exits
 
+
+
 [Video Link](https://www.youtube.com/watch?v=jdTPoh6VVG4&list=PL6RpkC85SLQABOpzhd7WI-hMpy99PxUo0&index=91)
