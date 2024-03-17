@@ -83,7 +83,18 @@ Use XSJS APIs like $.net.http.request to send HTTP requests to external endpoint
 
 ## Part 8.5 XSJS SQLCC - Secondary DB Connection
 
+What is XSJS SQLCC - Secondary DB Connection?
 
+XSJS SQLCC is a feature in SAP HANA XSJS allowing secondary database connections for accessing additional databases.
+Why use XSJS SQLCC for secondary DB connections?
+
+XSJS SQLCC enables accessing multiple databases within a single XSJS application, enhancing flexibility and data integration capabilities.
+Benefits of XSJS SQLCC - Secondary DB Connection
+
+Streamlined data access, improved performance, and simplified code maintenance by consolidating database interactions within XSJS applications.
+How to establish XSJS SQLCC for secondary DB connections?
+
+Configure secondary database connections in XSJS code using the $sql module, specifying connection details and executing SQL queries accordingly.
 
 [Video Link](https://www.youtube.com/watch?v=agYslBhqBn4&list=PL6RpkC85SLQABOpzhd7WI-hMpy99PxUo0&index=94)
 
