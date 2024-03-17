@@ -99,12 +99,26 @@ Configure secondary database connections in XSJS code using the $sql module, spe
 [Video Link](https://www.youtube.com/watch?v=agYslBhqBn4&list=PL6RpkC85SLQABOpzhd7WI-hMpy99PxUo0&index=94)
 
 
-
 ## Part 8.6 XSODATA: Creating a Simple OData V2 Service
+
+What is XSODATA and creating a simple OData V2 service?
+
+XSODATA is a service in SAP HANA enabling the creation of OData V2 services for exposing data entities as web APIs.
+Why create a simple OData V2 service with XSODATA?
+
+To standardize data access and facilitate interoperability with other systems by following the OData protocol.
+Benefits of creating a simple OData V2 service with XSODATA
+
+Simplified data integration, enhanced accessibility, and improved scalability for SAP HANA applications.
+How to create a simple OData V2 service with XSODATA?
+
+Define entity sets and associations in SAP HANA artifacts, annotate them with OData specifications, and expose them using XSODATA configuration.
 
 [Video Link](https://www.youtube.com/watch?v=rPNURKbpxak&list=PL6RpkC85SLQABOpzhd7WI-hMpy99PxUo0&index=93)
 
+
 ## Part 8.7 XSODATA: OData V2 With Multiple Entities and Relationships
+
 
 [Video Link](https://www.youtube.com/watch?v=MWxNLLYTeaI&list=PL6RpkC85SLQABOpzhd7WI-hMpy99PxUo0&index=92)
 
