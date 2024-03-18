@@ -46,14 +46,26 @@ Set breakpoints, inspect variables, and step through code execution to identify 
 
 ## Part 8.3 Exploring JavaScript Language Features
 
+What are the JavaScript language features explored?
 
+Variables, functions, control structures, and data types.
+Why explore JavaScript language features?
+
+Enhance understanding of JavaScript fundamentals for development.
+Benefits of exploring JavaScript language features
+
+Improved proficiency and ability to leverage advanced features.
+How to explore JavaScript language features?
+
+Study documentation, tutorials, and practice writing code.
 
 [Video Link](https://www.youtube.com/watch?v=U8kD0IAEXzc&list=PL6RpkC85SLQABOpzhd7WI-hMpy99PxUo0&index=96)
 
 
 
-
 ## Part 8.4 XSJS Outbound HTTP Requests
+
+
 
 [Video Link](https://www.youtube.com/watch?v=41tYpt7ecSc&list=PL6RpkC85SLQABOpzhd7WI-hMpy99PxUo0&index=95)
 
