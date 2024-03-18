@@ -65,13 +65,29 @@ Study documentation, tutorials, and practice writing code.
 
 ## Part 8.4 XSJS Outbound HTTP Requests
 
+What are XSJS outbound HTTP requests?
 
+XSJS outbound HTTP requests are requests made by XSJS applications to external HTTP endpoints.
+Why are XSJS outbound HTTP requests necessary?
+
+They enable XSJS applications to interact with external systems or services over HTTP.
+Benefits of XSJS outbound HTTP requests
+
+Facilitate integration with external systems, enabling data exchange and communication.
+How to make XSJS outbound HTTP requests?
+
+Use XSJS APIs like $.net.http.request to send HTTP requests to external endpoints within XSJS code.
 
 [Video Link](https://www.youtube.com/watch?v=41tYpt7ecSc&list=PL6RpkC85SLQABOpzhd7WI-hMpy99PxUo0&index=95)
 
+
 ## Part 8.5 XSJS SQLCC - Secondary DB Connection
 
+
+
 [Video Link](https://www.youtube.com/watch?v=agYslBhqBn4&list=PL6RpkC85SLQABOpzhd7WI-hMpy99PxUo0&index=94)
+
+
 
 ## Part 8.6 XSODATA: Creating a Simple OData V2 Service
 
