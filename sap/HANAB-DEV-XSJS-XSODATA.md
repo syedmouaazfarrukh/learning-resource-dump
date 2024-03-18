@@ -2,9 +2,30 @@
 
 ## Part 8.1 XSJS and XSODATA
 
+What is XSJS and XSODATA?
+
+XSJS: Server-side JavaScript runtime environment in SAP HANA.
+XSODATA: Service in SAP HANA for exposing data entities as OData services.
+Why is XSJS and XSODATA important?
+
+XSJS enables building web applications, while XSODATA simplifies data access and integration.
+Benefits of XSJS and XSODATA
+
+XSJS allows rapid development of web services with JavaScript.
+XSODATA facilitates standardized data access through OData services.
+How to work with XSJS and XSODATA?
+
+Develop applications using SAP HANA Studio or Web IDE.
+Define XSODATA services using annotations in SAP HANA artifacts.
+
+
 [Video Link](https://www.youtube.com/watch?v=0md3wyOQ59g&list=PL6RpkC85SLQABOpzhd7WI-hMpy99PxUo0&index=98)
 
+
+
 ## Part 8.2 Debugging XSJS and Node.js
+
+
 
 [Video Link](https://www.youtube.com/watch?v=3xjQObWgXfI&list=PL6RpkC85SLQABOpzhd7WI-hMpy99PxUo0&index=97)
 
