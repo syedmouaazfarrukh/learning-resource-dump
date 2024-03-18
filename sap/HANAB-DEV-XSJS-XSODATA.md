@@ -25,13 +25,33 @@ Define XSODATA services using annotations in SAP HANA artifacts.
 
 ## Part 8.2 Debugging XSJS and Node.js
 
+What is debugging in XSJS and Node.js?
 
+Debugging is the process of identifying and fixing errors or issues in XSJS and Node.js applications.
+Why is debugging important in XSJS and Node.js?
+
+Debugging ensures the reliability and stability of XSJS and Node.js applications.
+Benefits of debugging XSJS and Node.js
+
+Debugging allows for faster troubleshooting and resolution of bugs.
+It improves code quality and overall development efficiency.
+How to debug XSJS and Node.js?
+
+Utilize debugging tools provided by SAP HANA Studio or Web IDE.
+Set breakpoints, inspect variables, and step through code execution to identify and resolve issues.
 
 [Video Link](https://www.youtube.com/watch?v=3xjQObWgXfI&list=PL6RpkC85SLQABOpzhd7WI-hMpy99PxUo0&index=97)
 
+
+
 ## Part 8.3 Exploring JavaScript Language Features
 
+
+
 [Video Link](https://www.youtube.com/watch?v=U8kD0IAEXzc&list=PL6RpkC85SLQABOpzhd7WI-hMpy99PxUo0&index=96)
+
+
+
 
 ## Part 8.4 XSJS Outbound HTTP Requests
 
