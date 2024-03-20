@@ -25,4 +25,7 @@ Has a Single output scalar parameter
 Can be impebbed in a SQL statement rather than calling separate Statement like stored procedure
 
 Go in db/src/functions/ create a new function (get_full_name.hdbfunction ) and paste `https://github.com/SAP-samples/hana-xsa-opensap-hana7/blob/snippets_2.3.2/ex2/get_full_name.sql`
+change the stored procedure with this code:
+`https://github.com/SAP-samples/hana-xsa-opensap-hana7/blob/snippets_2.3.2/ex2/get_po_header_data.sql` and build `db` again
 
+Can check this in data explorer
