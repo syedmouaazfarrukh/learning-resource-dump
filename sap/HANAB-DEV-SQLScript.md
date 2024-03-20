@@ -44,32 +44,60 @@ To access a library, create a new stored procedure and eet code from `https://gi
 
 ## Part 7.5 SQLScript Built-In Libraries
 
+Collections of ready-to-use functions and procedures.
+They help perform common tasks like math operations or string manipulation.
+Convenient for developers to use without writing everything from scratch.
+
 [Video Link](https://www.youtube.com/watch?v=cIpjz-pTJ_E&list=PL6RpkC85SLQABOpzhd7WI-hMpy99PxUo0&index=105)
 
 ## Part 7.6 SQLScript Anonymous Blocks
 
+Pieces of code executed on-the-fly without saving.
+Handy for quick tasks or testing without cluttering the database.
+They vanish once executed, keeping the database clean.
+
 [Video Link](https://www.youtube.com/watch?v=jFYM2PR-3CE&list=PL6RpkC85SLQABOpzhd7WI-hMpy99PxUo0&index=104)
 
 ## Part 7.7 SQLScript Table Manipulation
+
+Actions like adding, updating, or deleting data within tables.
+Useful for managing database content directly from SQLScript.
+Simplifies data handling within stored procedures or functions.
 
 [Video Link](https://www.youtube.com/watch?v=RPxuUn-f3OU&list=PL6RpkC85SLQABOpzhd7WI-hMpy99PxUo0&index=103)
 
 
 ## Part 7.8 SQLScript Map Merge
 
+Combines multiple key-value pairs into one map.
+Helps unify data from different sources or resolve key conflicts.
+Streamlines data consolidation tasks.
+
 [Video Link](https://www.youtube.com/watch?v=5cgzwDBHh4U&list=PL6RpkC85SLQABOpzhd7WI-hMpy99PxUo0&index=102)
 
 
 ## Part 7.9 SQLScript Map Reduce
+
+Method for processing large datasets in parallel.
+Divides data into smaller chunks for processing across multiple nodes.
+Efficient for tasks like aggregation or filtering on big data sets.
 
 [Video Link](https://www.youtube.com/watch?v=r7EvRcUyfAc&list=PL6RpkC85SLQABOpzhd7WI-hMpy99PxUo0&index=101)
 
 
 ## Part 7.10 SQLScript Debugging (Debugger)
 
+Tool for finding and fixing errors in SQLScript code.
+Allows setting breakpoints, inspecting variables, and tracing execution flow.
+Aids in identifying and resolving issues to ensure code runs smoothly.
+
 [Video Link](https://www.youtube.com/watch?v=iCZWk4lGusk&list=PL6RpkC85SLQABOpzhd7WI-hMpy99PxUo0&index=100)
 
 
 ## Part 7.11 SQLScript Performance Analysis
+
+Examination of SQLScript code execution for optimizing speed.
+Includes analyzing query plans, resource usage, and profiling code.
+Helps enhance code efficiency and database performance.
 
 [Video Link](https://www.youtube.com/watch?v=JLZcUEQIYD4&list=PL6RpkC85SLQABOpzhd7WI-hMpy99PxUo0&index=99)
