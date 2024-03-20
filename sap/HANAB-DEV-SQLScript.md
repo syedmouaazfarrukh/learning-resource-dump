@@ -10,3 +10,5 @@ In the WebIDE:
             `https://github.com/SAP-samples/hana-xsa-opensap-hana7/blob/snippets_2.3.2/ex2/ex2_17`
             
             There is a `Definer` and a `User` who has rights to run/access data. for read only, READ SQL DATA as and for non-read only it should be like `AS`
+
+            Ignore client side error messages, focus on build status
