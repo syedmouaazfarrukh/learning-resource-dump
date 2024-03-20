@@ -19,6 +19,10 @@ In the WebIDE:
             then generate call statement, run it and you'll get data form table via stored procedures
 
 
-## Part 7.2 SQLScript Scalar UDF
+## Part 7.2 SQLScript Scalar UDF (User Defined Function)
 
 Has a Single output scalar parameter
+Can be impebbed in a SQL statement rather than calling separate Statement like stored procedure
+
+Go in db/src/functions/ create a new function (get_full_name.hdbfunction ) and paste `https://github.com/SAP-samples/hana-xsa-opensap-hana7/blob/snippets_2.3.2/ex2/get_full_name.sql`
+
