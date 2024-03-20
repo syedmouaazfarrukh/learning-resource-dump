@@ -12,3 +12,13 @@ In the WebIDE:
             There is a `Definer` and a `User` who has rights to run/access data. for read only, READ SQL DATA as and for non-read only it should be like `AS`
 
             Ignore client side error messages, focus on build status
+
+            ![alt text](image.png)
+
+            To check status, go to data explorer and from there stored procedures and then `get_po_header_data`
+            then generate call statement, run it and you'll get data form table via stored procedures
+
+
+## Part 7.2 SQLScript Scalar UDF
+
+Has a Single output scalar parameter
