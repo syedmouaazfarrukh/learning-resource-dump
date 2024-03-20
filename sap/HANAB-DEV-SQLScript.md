@@ -29,3 +29,14 @@ change the stored procedure with this code:
 `https://github.com/SAP-samples/hana-xsa-opensap-hana7/blob/snippets_2.3.2/ex2/get_po_header_data.sql` and build `db` again
 
 Can check this in data explorer
+
+## Part 7.3 SQLScript Table UDF
+
+- Table function (single table output) - Scalar UDF (single scalar output)
+- Looks like a view and can perform SELECT and other complex things
+- Go to db/src/functions/ create a new function (`get_po_counts.hdbfunction`) and paste the following code `https://github.com/SAP-samples/hana-xsa-opensap-hana7/blob/snippets_2.3.2/ex2/get_po_counts2.sql` and build the db again and check from data explorer
+
+## Part 7.4 SQLScript Libraries
+
+Allows you to pull multiple stored procedures into a library with some shared variables and stuff
+Go to db/src/libraries/ create a new database artifact `MasterData` and paste the code from `https://github.com/SAP-samples/hana-xsa-opensap-hana7/blob/snippets_2.3.2/ex2/MasterData.sql`
