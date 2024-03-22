@@ -1,4 +1,4 @@
-# Group Project: 311 Service Requests Dashboard for City of Edmonton
+# Project: 311 Service Requests Dashboard for City of Edmonton
 
 ## Part A: Plan Your Dashboard
 
