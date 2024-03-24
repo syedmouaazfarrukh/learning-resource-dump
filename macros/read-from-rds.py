@@ -34,8 +34,16 @@ result_df = pd.concat(dfs, ignore_index=True)
 # Now you can work with the combined DataFrame 'result_df'
 # print(result_df)  # Display the first few rows of the DataFrame
 
-# Write the DataFrame to an Excel file
-excel_filename = "output.xlsx"
-result_df.to_excel(excel_filename, index=False)
 
-print(f"DataFrame has been written to {excel_filename}.")
+# Extracting KPI columns
+# kpi_columns = ['date_created', 'month']  # Adjust this list to include the names of your KPI columns
+# kpi_df = result_df[kpi_columns]
+
+# print(kpi_df)
+
+
+# Write the DataFrame to an Excel file
+# excel_filename = "output.xlsx"
+# result_df.to_excel(excel_filename, index=False)
+
+# print(f"DataFrame has been written to {excel_filename}.")
