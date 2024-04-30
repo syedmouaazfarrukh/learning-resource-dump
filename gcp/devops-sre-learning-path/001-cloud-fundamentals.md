@@ -117,10 +117,24 @@ Resources/Access in Cloud
 
     - Cloud Function
 
-
+ 
 
 - Prompt Engineering Guide
     - What is genAI
     - what is LLM
+        - Accuracy
+        - Hallucinations
     - What is promt eng
+        - Types
+            - Zero-shot prompt
+            - One-shot prompt
+            - Few-shot prompt
+            - Role prompt
+        - Elements/Stages
+            - Preamble
+                - Context
+                - Task
+                - Examples
+            - Input
+
     - Best prac for prompt eng
