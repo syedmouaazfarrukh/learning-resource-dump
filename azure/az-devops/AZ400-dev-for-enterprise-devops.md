@@ -109,5 +109,13 @@ Inner source  = Internal Open Source within organizations using forking workflow
         - `Incremental repack`: Repacks the packed Git data into fewer pack files without disrupting concurrent commands using the multi-pack-index.
 
 - Use Git Large File Storage (LFS)
-- Purge repository data
+- Purge(remove,clear,delete) repository data
+    - Significantly reduce the size of a repository by removing history.
+    - Remove a large file that was accidentally uploaded.
+    - Remove a sensitive file that shouldn't have been uploaded.
 - Manage and Automate Release Notes with GitHub
+- Implement `Scalar` and `Cross` repo when `cross repo sharing`
+
+### **IMPORTANT: Manage releases with GitHub Repos**
+### **IMPORTANT: Automate release notes with GitHub**
+### **IMPORTANT: Create API documentation with Azure DevOps/GitHub**
